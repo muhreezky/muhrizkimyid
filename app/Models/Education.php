@@ -12,7 +12,7 @@ use Orchid\Screen\AsSource;
 
 class Education extends Model
 {
-    use HasFactory, AsSource, Filterable, Attachable;
+    use AsSource, Attachable, Filterable, HasFactory;
 
     /** @var string */
     protected $table = 'educations';

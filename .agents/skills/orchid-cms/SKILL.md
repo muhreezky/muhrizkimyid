@@ -71,6 +71,7 @@ Based on reading the official GitHub repositories (orchidsoftware/platform and o
 1. Use `php artisan orchid:resource` to create a CRUD Resource for models
 2. The command generates the form based on the model's fields in the database
 3. Can switch to using the platform for more complex needs
+4. Add Orchid required traits to the model right after the Orchid CRUD resource is created
 
 ### Creating Screens
 1. Use `php artisan orchid:screen` to create a screen
